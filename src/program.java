@@ -1,6 +1,5 @@
 
 
-import java.io.Console;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
@@ -20,8 +19,28 @@ public class program {
 			
 		}
 		
-		ArrayList<Integer> array = new ArrayList<Integer>();
 		
+		crearArray();
+		
+		Mascota unaMascota = new Mascota();
+		Mascota unaMascota1 = new Mascota();
+		Mascota unaMascota2 = new Mascota();
+		Mascota unaMascota3 = new Mascota();
+		Mascota unaMascota4 = new Mascota();
+		Mascota unaMascota5 = new Mascota();
+		Mascota unaMascota6 = new Mascota();
+		
+		
+		
+		
+		JOptionPane.showMessageDialog(null, Mascota.contador);
+		
+		
+	}
+	
+	public static void crearArray()
+	{
+		ArrayList<Integer> array = new ArrayList<Integer>();
 		
 		for(int i = 0; i<10; i++)
 		{
